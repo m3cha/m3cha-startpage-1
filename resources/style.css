@@ -1,0 +1,101 @@
+html{
+  height:100vh;
+}
+body {
+  background-image: url("img1.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #cccccc;
+  font-family: "century gothic";
+  overflow: hidden;
+}
+
+.container {
+    background: none;
+    display: block;
+    margin: 25vh auto 0;
+    width: 75%;
+}
+
+h1{
+  font-family: "andes";
+  font-size: 42px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 0;
+  color: #cccccc;
+  text-shadow: 0px 0px 5px black;
+}
+
+form{
+  background-color: rgba(0,0,0,0);
+  border: none;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input{
+  background-color: rgba(0,0,0,0);
+  color: #cccccc;
+  font-family: "century gothic";
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  text-align:center;
+  text-shadow: 0px 0px 3px black;
+  margin-bottom: 16px;
+}
+
+.list{
+  float: left;
+  width: 18%;
+  margin: 0 1%;
+  text-align: center;
+  background-color: f00;
+}
+
+.dropdown-top{
+  width:100%;
+  background-color: rgba(0,0,0,0.5);
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-list{
+  width: 100%;
+  visibility: hidden;
+  list-style: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+li{
+  width:100%;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+li:hover{
+  background-color: rgba(0,0,0,0.75);
+}
+
+li a{
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.list:hover .dropdown-list{
+  visibility: visible;
+  height: auto;
+}
+
+.list:hover .dropdown-top{
+  background-color: rgba(0,0,0,0.75);
+}
